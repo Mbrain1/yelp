@@ -149,10 +149,18 @@ html {
         display: none !important;
     }
 
+    .show-footer {
+        -ms-flex:0 0 100%;
+        flex:0 0 100%;
+        max-width:100%;
+    }
+
 }
 
 
-
+.text-left {
+    text-align: left;
+}
 @media (min-width:576px) {
     .box-wrapper {
         max-width: 540px
@@ -217,3 +225,144 @@ fieldset:disabled a.btn {
     pointer-events: none
 }
 
+
+.social-btn {
+    font-weight:bold;
+    font-size: 14px;
+    width:100%;
+    text-decoration:none;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-btn:hover{
+    opacity: 0.9;
+}
+
+.social-btn-fb {
+    background-color: #0073bb;
+    color: #fff !important;
+}
+
+.social-btn-apple {
+    background-color: #000;
+    color: #fff !important;
+}
+
+
+.social-btn-google {
+    background-color: #fff;
+    color: #444 !important;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+input:focus {
+    outline: none !important;
+}
+
+
+.submit .btn {
+    background-color: #d32323;
+    color:#fff;
+    font-weight:bold;
+     font-size: 14px;
+     text-align: center;
+    width:100%;
+    display: block;
+}
+
+.submit .btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.row-wrapper  {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+   /* margin-right:-15px;
+    margin-left:-15px*/
+}  
+
+.copyright {
+    color: #757280;
+    text-align: left;
+}
+
+footer {
+    background-color: #F4F4F4;
+    padding: 30px 10px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
+
+.column-3 {
+ -ms-flex:0 0 33%;
+ flex:0 0 33%;
+ max-width:33%;
+}
+
+.column-6 {
+ -ms-flex:0 0 50%;
+ flex:0 0 50%;
+ max-width:50%;
+}
+
+
+footer select {
+    border: none;
+    background-color: none;
+    background:none; 
+    box-shadow: none;
+    color: #757280;
+}
+
+
+.hide_footer div {
+    margin-bottom: 5px;
+}
+
+.hide_footer a {
+    color: #757280;
+    font-size: 14px;
+}
+
+.center-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+.column-4 {
+    -ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-right: 10px
+}
+
+
+.column-3 {
+
+}
+
+.column-7 {
+
+}
+
+
+form input,form select {
+    display: block !important;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px 5px;
+}

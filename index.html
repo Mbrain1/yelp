@@ -3,7 +3,7 @@
 <head>
 	<title>Sign Up - Yelp</title>
 	  <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css?h=ee">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css?h=ww">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,60 +17,62 @@
 <body>
 
 <div class="page-wrapper">
-	<header style="background-color: #D32323;display: flex;justify-content: center;padding: 15px">
+	<header style="background-color: #D32323;padding: 15px" class="center-alignment">
 		<img src="assets/images/logo_desktop_white.yji-2d2a7a4342fcfc9007c4020b1f76558a.svg">
 	</header>
-
-	<section style="margin-top: 30px">
+	<p></p>
+	<section>
 		<div class="box-wrapper">
-			<div style="display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px">
+			<div class="row-wrapper">
 			<div class="left-box">
 
 				<div class="top-header" style="text-align: center;padding:0px 10px">
 					<h2 style="font-size:22px;color:#d32323;margin-bottom: 5px">Sign Up for Yelp</h2>
+					
 					<div class="fs-13 fw-600" style="margin-bottom: 10px">Connect with great local businesses</div>
-
-					<div class="fs-12">By continuing, you agree to Yelp’s <a href="">Terms of Service</a> and acknowledge Yelp’s <a href="">Privacy Policy</a>.</div>
+					
+					<div class="fs-12" style="margin-bottom: 20px">By continuing, you agree to Yelp’s <a href="">Terms of Service</a> and acknowledge Yelp’s <a href="">Privacy Policy</a>.</div>
 				
+				
+				<div class="socials center-alignment flex-column">
+					<a href="" class="btn social-btn social-btn-fb" ><i class="fab fa-facebook rounded-circle d-inline-block" ></i> &nbsp; Continue With Facebook</a>
 
-				<div class="socials" style="display: flex;justify-content: center;flex-direction: column;align-items: center;margin-top: 30px">
-					<a href="" class="btn" style="font-weight:bold;font-size: 14px;width:100%;text-decoration:none;background-color: #0073bb;color: #fff;text-align: center;margin-bottom: 10px;display: flex;align-items: center;justify-content: center;"><i class="fab fa-facebook rounded-circle d-inline-block" ></i> &nbsp; Continue With Facebook</a>
-
-					<a href="" class="btn" style="font-weight:bold;font-size: 14px;width:100%;text-decoration:none;border: 1px solid #ccc;background-color: #fff; color: #444;text-align: center;margin-bottom: 10px;display: flex;align-items: center;justify-content: center;"><img src="assets/images/24x24_google_rainbow.png"> &nbsp; Continue With Google</a>
+					<a href="" class="btn social-btn social-btn-google" ><img src="assets/images/24x24_google_rainbow.png"> &nbsp; Continue With Google</a>
 
 
-					<a href="" class="btn" style="font-weight:bold;font-size: 14px;width:100%;text-decoration:none;background-color: #000;color: #fff;text-align: center;margin-bottom: 10px;display: flex;align-items: center;justify-content: center;"><i class="fab fa-apple" aria-hidden="true"></i> &nbsp; Continue With Apple</a>
+					<a href="" class="btn social-btn social-btn-apple"><i class="fab fa-apple" aria-hidden="true"></i> &nbsp; Continue With Apple</a>
 				</div>
 
-				<div style="font-size:12px;color: #444">Don't worry, we never post without your permission.</div>
+				<div class="fs-12">Don't worry, we never post without your permission.</div>
 
 				<div style="position: relative;">
-					<p style="font-size: 13px;color: #444;" ><div style="display: inline-block;padding:0 10px;background-color: #FFFFFF">OR</div></p>
+					<p class="fs-13" ><div style="display: inline-block;padding:0 10px;background-color: #FFFFFF">OR</div></p>
 					<div  style="position: absolute;top: 50%;height: 1px;background-color: rgba(0,0,0,0.4);width: 100%;z-index: -10"></div>
 				</div>
 
 
 				<form>
 
-					<div style="display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;">
-			<div style="-ms-flex:0 0 30%;flex:0 0 50%;max-width:50%;padding-right: 10px">
-				<input type="text" placeholder="First Name" style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+					<div class="row-wrapper">
+			<div class="column-6 padding-right-10">
+				<input type="text" placeholder="First Name" >
 			</div>
 
-			<div style="-ms-flex:0 0 70%;flex:0 0 50%;max-width:50%;text-align: right;">
-			<input type="text" placeholder="Last Name" style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">     
+			<div class="column-6">
+			<input type="text" placeholder="Last Name" >     
 			 </div>
 
 			</div>
-					<input type="email" placeholder="Email" style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+					<input type="email" placeholder="Email" >
 
-					<input type="password" placeholder="Password" style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+					<input type="password" placeholder="Password" >
 
-					<input type="text" placeholder="Zip Code" style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+					<input type="text" placeholder="Zip Code" >
 
-					<div style="display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;">
-						<div style="-ms-flex:0 0 33%;flex:0 0 33%;max-width:33%;padding-right: 10px">
-							<select style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+					<div class="fs-13 text-left" ><span class="fw-600">Birthday</span> Optional</div>
+					<div class="row-wrapper">
+						<div class="column-3 padding-right-10">
+							<select >
 								<option value="">Month</option>
 								<option value="1">Jan</option>
 								<option value="2">Feb</option>
@@ -87,9 +89,9 @@
 							</select>
 						</div>
 
-						<div style="-ms-flex:0 0 33%;flex:0 0 33%;max-width:33%;text-align: right;padding-right: 10px">
+						<div class="column-3 padding-right-10">
 			
-								<select style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+								<select >
 <option value="">Day</option>
 <option value="1">1</option>
 <option value="2">2</option>
@@ -125,8 +127,8 @@
 </select> 
 						 </div>
 
-<div style="-ms-flex:0 0 33%;flex:0 0 33%;max-width:33%;">
-							<select style="display: block;margin-bottom: 10px;width: 100%;padding: 5px 5px">
+<div class="column-3">
+							<select >
 								<option value="">Year</option>
 <option value="2021">2021</option>
 <option value="2020">2020</option>
@@ -255,11 +257,10 @@
 			</div>
 
 	<div class="submit">
-		<button class="btn" style="background-color: #d32323;color:#fff;font-weight:bold; font-size: 14px;text-align: center;width:100%;display: block;">Sign Up</button>
+		<button class="btn" type="submit">Sign Up</button>
 	</div>
 
-
-	<div style="display: flex;justify-content: flex-end;font-size: 12px;margin-top: 10px">
+	<div style="display: flex;justify-content: flex-end;margin-top: 10px" class="fs-12">
 		Already on Yelp? <a href="#">Log in</a>
 	</div>
 
@@ -274,7 +275,7 @@
                              
 			 </div>
 
-			<div style="text-align: right;display: flex;justify-content: center;align-items: center;" class="right-box">
+			<div  class="right-box center-alignment">
                                 <img src="assets/images/signup_illustration.png">
 			 </div>
 
@@ -284,41 +285,41 @@
 	</section>
 </div>
 
-<footer style="background-color: #F4F4F4;padding: 30px 10px;">
+<footer >
 	<div class="box-wrapper">
 
 
 
-		<div style="display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;">
-			<div style="-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-right: 10px" style="font-size: 14px !important" class="hide_footer">
+		<div class="row-wrapper">
+			<div   class="hide_footer column-4 fs-14">
 				<p><strong>About</strong></p>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">About Yelp</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Careers</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Press</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Investor Relations</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Trust & Safety</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Content Guidelines</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Accessibility Statement</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Terms of Service</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Privacy Policy</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Ad Choices</a></div>
+				<div><a href="#">About Yelp</a></div>
+				<div><a href="#">Careers</a></div>
+				<div><a href="#">Press</a></div>
+				<div><a href="#">Investor Relations</a></div>
+				<div><a href="#">Trust & Safety</a></div>
+				<div><a href="#">Content Guidelines</a></div>
+				<div><a href="#">Accessibility Statement</a></div>
+				<div><a href="#">Terms of Service</a></div>
+				<div><a href="#">Privacy Policy</a></div>
+				<div><a href="#">Ad Choices</a></div>
 				
 			</div>
 
 
 
-			<div style="-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-right: 10px" style="font-size: 14px !important" class="hide_footer">
+			<div   class="hide_footer column-4 fs-14">
 				<p><strong>Discover</strong></p>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Yelp Project Cost Guides</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Collections</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Talk</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Events</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">The Local Yelp</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Yelp Blog</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Support</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Yelp Mobile</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Developers</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">RSS</a></div>
+				<div><a href="#">Yelp Project Cost Guides</a></div>
+				<div><a href="#">Collections</a></div>
+				<div><a href="#">Talk</a></div>
+				<div><a href="#">Events</a></div>
+				<div><a href="#">The Local Yelp</a></div>
+				<div><a href="#">Yelp Blog</a></div>
+				<div><a href="#">Support</a></div>
+				<div><a href="#">Yelp Mobile</a></div>
+				<div><a href="#">Developers</a></div>
+				<div><a href="#">RSS</a></div>
 				
 			</div>
 
@@ -331,23 +332,23 @@
 
 
 
-			<div style="-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-right: 10px" style="font-size: 14px !important" class="hide_footer">
+			<div   class="hide_footer column-4 fs-14">
 				<p><strong>Yelp for Business</strong></p>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Claim your Business Page</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Advertise on Yelp</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Yelp for Restaurant Owners</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Table Management</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Business Success Stories</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Business Support</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Accessibility Statement</a></div>
-				<div style="margin-bottom:5px"><a href="#" style="color: #757280;font-size: 14px">Yelp Blog for Business</a></div>
+				<div><a href="#">Claim your Business Page</a></div>
+				<div><a href="#">Advertise on Yelp</a></div>
+				<div><a href="#">Yelp for Restaurant Owners</a></div>
+				<div><a href="#">Table Management</a></div>
+				<div><a href="#">Business Success Stories</a></div>
+				<div><a href="#">Business Support</a></div>
+				<div><a href="#">Accessibility Statement</a></div>
+				<div><a href="#">Yelp Blog for Business</a></div>
 				
 			</div>
 
 
-			<div style="-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;padding-right: 10px" style="font-size: 14px !important">
+			<div   class="column-4 show-footer">
 				<div><strong>Languages</strong></div>
-				<div> <select style="border: none;background-color: none;background:none; box-shadow: none;color: #757280">
+				<div> <select>
 <option value="AR">Argentina</option>
 <option value="AU">Australia</option>
 <option value="AT">Austria</option>
@@ -384,7 +385,7 @@
 
 				<div><strong>Countries</strong></div>
 				<div>
-<select style="border: none;background-color: none;background:none; box-shadow: none;color: #757280">
+<select>
 <option value="AR">Argentina</option>
 <option value="AU">Australia</option>
 <option value="AT">Austria</option>
@@ -430,8 +431,8 @@
 
 
 
-
-		<div style="font-size: 12px;display: flex;align-items: center;margin-top: 20px;color: #757280;">Copyright © 2004–2021 Yelp Inc. <img src="assets/images/logo_desktop.svg" height="14">, <img src="assets/images/burst_red.svg" height="14">, Yelp burst and related marks are registered trademarks of Yelp.</div>
+		 <br />
+		<div class="fs-12 copyright" >Copyright © 2004–2021 Yelp Inc. <img src="assets/images/logo_desktop.svg" height="14">, <img src="assets/images/burst_red.svg" height="14">, Yelp burst and related marks are registered trademarks of Yelp.</div>
 
 
 	</div>
